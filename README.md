@@ -27,8 +27,9 @@ A fun and interactive Lottery Game built using **ReactJS**. This project helps u
 
 ## 📸 Screenshots
 
-> Add some screenshots of your app here  
-> *(Optional but recommended)*
+ 
+> ### 🏠 Home Screen
+![Home Screen]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-06-21 121457.png")
 
 ---
 
