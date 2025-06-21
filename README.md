@@ -1,16 +1,74 @@
+# 🎲 Lottery Game 🎲
 
-# Lottery_Game
+A fun and interactive Lottery Game built using **ReactJS**. This project helps users test their luck by generating random numbers and checking if they win, making it a great mini-game to understand the core concepts of React.
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tech Stack
 
-Currently, two official plugins are available:
+- **ReactJS** – Frontend framework
+- **HTML & CSS** – Structure and styling
+- **JavaScript** – Logic and interactivity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎰 Simple and intuitive UI
+- 🔢 Random number generation logic
+- 🎉 Win/Lose condition checker
+- ♻️ Play Again option
+- 💡 Uses React concepts like:
+  - useState
+  - Props
+  - Conditional rendering
+
+---
+
+## 📸 Screenshots
+
+> Add some screenshots of your app here  
+> *(Optional but recommended)*
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Tushar-Rajput9520/Lottery_Game.git
+   cd Lottery_Game
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Run the app
+
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000
+
+📁 Folder Structure
+java
+Copy
+Edit
+Lottery_Game/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+🙋‍♂️ Author
+Tushar Rajput
+📫 Connect on LinkedIn
+
+📃 License
+This project is licensed under the MIT License.
 
