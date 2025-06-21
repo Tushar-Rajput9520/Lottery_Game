@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(to right, #120108, #041315);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.lottery-container {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  padding: 20px;
+  border: 3px dashed #ff80ab;
+  border-radius: 16px;
+  background-color: #fff5f9;
+  transition: transform 0.3s ease;
+}
+
+.ticket.win {
+  border-color: #00e676;
+  background-color: #e6ffe9;
+  transform: scale(1.07);
+  box-shadow: 0 0 20px #00e676aa;
+}
+
+.number {
+  font-size: 2rem;
+  margin: 0 10px;
+  padding: 12px;
+  background-color: #ff80ab;
+  color: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.number:hover {
+  transform: scale(1.1);
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f50057;
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4caf50;
+  background: linear-gradient(to right, #b2ff59, #76ff03);
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(118, 255, 3, 0.4);
+  animation: pop-in 0.6s ease-in-out;
+}
+
+/* Winning Animation */
+@keyframes pop-in {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
